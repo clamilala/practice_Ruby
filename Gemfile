@@ -11,7 +11,7 @@ source 'https://rubygems.org'
 gem 'rails', '5.1.6'
 # Use Puma as the app server
 #gem 'puma', '~> 3.7'
-gem 'puma', '3.9.1'
+gem 'puma', '3.12.4'
 # Use SCSS for stylesheets
 #gem 'sass-rails', '~> 5.0'
 gem 'sass-rails', '5.0.6'
@@ -22,7 +22,7 @@ gem 'uglifier', '3.2.0'
 #gem 'coffee-rails', '~> 4.2'
 gem 'coffee-rails', '4.2.2'
 
-#Œ³ƒtƒ@ƒCƒ‹‚É‚Í–³‚©‚Á‚½•¨
+#å…ƒãƒ•ã‚¡ã‚¤ãƒ«ã«ã¯ç„¡ã‹ã£ãŸç‰©
 gem 'jquery-rails', '4.3.1'
 
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -32,7 +32,7 @@ gem 'turbolinks', '5.0.1'
 #gem 'jbuilder', '~> 2.5'
 gem 'jbuilder', '2.6.4'
 
-#testŠÂ‹«‚¾‚¯‚Åg‚¤w’è
+#testç’°å¢ƒã ã‘ã§ä½¿ã†æŒ‡å®š
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   #gem 'sqlite3'
@@ -46,18 +46,18 @@ group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   #gem 'web-console', '>= 3.3.0'
   gem 'web-console', '3.5.1'
-  #Œ³ƒtƒ@ƒCƒ‹‚É‚Í–³‚©‚Á‚½•¨~3ŒÂ
+  #å…ƒãƒ•ã‚¡ã‚¤ãƒ«ã«ã¯ç„¡ã‹ã£ãŸç‰©Ã—3å€‹
   gem 'listen',                '3.1.5'
   gem 'spring',                '2.0.2'
   gem 'spring-watcher-listen', '2.0.1'
 end
 
-#WindowsŠÂ‹«‚Å‚Ítzinfo-data‚Æ‚¢‚¤gem‚ğŠÜ‚ß‚é•K—v‚ª‚ ‚è‚Ü‚·
+#Windowsç’°å¢ƒã§ã¯tzinfo-dataã¨ã„ã†gemã‚’å«ã‚ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-#‚±‚êˆÈ~‚Í•s—vH
+#ã“ã‚Œä»¥é™ã¯ä¸è¦ï¼Ÿ
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
